@@ -12,7 +12,8 @@ return {
   },
   config = function(_, opts)
     -- require("dap-python").setup("python", {})
-    require("dap-python").setup('~/home/amit/anaconda3/bin/envs/nlp/python3')
+    -- require("dap-python").setup('~/home/amit/anaconda3/envs/nlp/bin/python3')
+    require("dap-python").setup('/home/amit/anaconda3/envs/nlp/bin/python3')
   end,
 
 }

@@ -5,6 +5,7 @@ return {
 			javascript = "node",
 			python = "ipython --no-autoindent"
 		}
+		vim.g["repl_split"] = "right"
 	end,
 	keys = {
 		{ "<leader>rt", "<cmd>ReplToggle<cr>",  desc = "Toggle nvim-repl" },
